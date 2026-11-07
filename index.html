@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Luxes Lexios — programação, redes, cyber security e soluções de TI.">
+  <meta name="theme-color" content="#0b111b">
+  <title>Luxes Lexios | Tecnologia & Cyber Security</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Luxes Lexios, início">
+      <span class="brand-mark">L</span>
+      <span>Luxes <strong>𝙇𝙚𝙭𝙞𝙤𝙨</strong></span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#programacao">Programação</a>
+      <a href="#redes">Redes</a>
+      <a href="#cyber-security">Cyber Security</a>
+      <div class="dropdown">
+        <button class="dropdown-toggle" aria-expanded="false">
+          Serviços de T.I. <span class="chevron">⌄</span>
+        </button>
+        <div class="dropdown-menu">
+          <a href="#suporte">Suporte técnico</a>
+          <a href="#infraestrutura">Infraestrutura e redes</a>
+          <a href="#seguranca">Segurança digital</a>
+          <a href="#consultoria">Consultoria em T.I.</a>
+        </div>
+      </div>
+      <a class="nav-contact" href="#contato">Contato <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> TECNOLOGIA • REDES • SEGURANÇA</div>
+        <h1>Explorando o código.<br><span>Protegendo o futuro.</span></h1>
+        <p class="hero-description">Um espaço dedicado à tecnologia, programação, infraestrutura de redes e aos conhecimentos que fortalecem o mundo digital.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#areas">Explorar conteúdo <span>↓</span></a>
+          <a class="button button-ghost" href="#perfil">Conheça o proprietário</a>
+        </div>
+        <div class="hero-meta"><span>01 / 04</span><i></i><span>PORTFÓLIO PESSOAL</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="image-frame">
+          <img src="assets/personagem-referencia.jpg" alt="Personagem ilustrado de cabelo azul em uma atmosfera noturna">
+          <div class="image-overlay"></div>
+          <div class="image-caption"><span>LEXIOS // DIGITAL SPACE</span><span>● ONLINE</span></div>
+        </div>
+        <div class="floating-chip chip-top"> <span>⌘</span> SYSTEM / ACTIVE</div>
+        <div class="floating-chip chip-bottom"><span class="chip-pulse"></span> Segurança em primeiro lugar</div>
+      </div>
+    </section>
+
+    <section class="profile section-wrap" id="perfil">
+      <div class="profile-image"><img src="assets/personagem-referencia.jpg" alt="Imagem de perfil ilustrativa do proprietário"></div>
+      <div class="profile-info">
+        <div class="eyebrow">PERFIL DO PROPRIETÁRIO</div>
+        <h2>Olá, eu sou <span>Lexios.</span></h2>
+        <p>Entusiasta de tecnologia, programação, redes e segurança da informação. Este ambiente reúne meus estudos, projetos, experiências e soluções na área de T.I.</p>
+        <div class="profile-tags"><span>Desenvolvimento</span><span>Redes</span><span>Cyber Security</span></div>
+      </div>
+      <div class="profile-side"><span class="side-label">STATUS</span><strong><span class="status-dot"></span> Em constante evolução</strong><span class="side-label">FOCO</span><strong>Aprender • Criar • Proteger</strong></div>
+    </section>
+
+    <section class="content-section section-wrap" id="areas">
+      <div class="section-heading">
+        <div><div class="eyebrow">ÁREAS DE CONHECIMENTO</div><h2>Conhecimento em <span>movimento.</span></h2></div>
+        <p>Explore os principais pilares deste espaço.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card" id="programacao">
+          <div class="card-icon">&lt;/&gt;</div><span class="card-index">01 — DEV</span>
+          <h3>Programação</h3><p>Lógica, desenvolvimento web, automações e construção de soluções digitais.</p>
+          <a href="#contato" aria-label="Saiba mais sobre programação">Explorar área <span>↗</span></a>
+        </article>
+        <article class="service-card" id="redes">
+          <div class="card-icon">⌁</div><span class="card-index">02 — NETWORK</span>
+          <h3>Redes</h3><p>Infraestrutura, protocolos, roteamento, monitoramento e administração de redes.</p>
+          <a href="#contato" aria-label="Saiba mais sobre redes">Explorar área <span>↗</span></a>
+        </article>
+        <article class="service-card" id="cyber-security">
+          <div class="card-icon">⌑</div><span class="card-index">03 — SECURITY</span>
+          <h3>Cyber Security</h3><p>Boas práticas, análise de vulnerabilidades e proteção de ambientes digitais.</p>
+          <a href="#contato" aria-label="Saiba mais sobre cyber security">Explorar área <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="it-services section-wrap" id="servicos">
+      <div class="it-copy">
+        <div class="eyebrow">SOLUÇÕES E SERVIÇOS</div>
+        <h2>Serviços de <span>Tecnologia da Informação.</span></h2>
+        <p>Conheça algumas das frentes de atuação e suporte que podem fazer parte deste portfólio.</p>
+      </div>
+      <div class="service-list">
+        <article class="service-row" id="suporte"><span class="row-number">01</span><div><h3>Suporte técnico</h3><p>Diagnóstico, manutenção e resolução de problemas em computadores e sistemas.</p></div><span class="row-arrow">↗</span></article>
+        <article class="service-row" id="infraestrutura"><span class="row-number">02</span><div><h3>Infraestrutura e redes</h3><p>Configuração de roteadores, redes locais, Wi-Fi e monitoramento.</p></div><span class="row-arrow">↗</span></article>
+        <article class="service-row" id="seguranca"><span class="row-number">03</span><div><h3>Segurança digital</h3><p>Orientações de segurança, hardening básico e análise preventiva.</p></div><span class="row-arrow">↗</span></article>
+        <article class="service-row" id="consultoria"><span class="row-number">04</span><div><h3>Consultoria em T.I.</h3><p>Apoio na escolha de tecnologias e planejamento de ambientes de T.I.</p></div><span class="row-arrow">↗</span></article>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="contato">
+      <div><div class="eyebrow">VAMOS CONVERSAR?</div><h2>Ideias se tornam projetos.<br><span>Projetos se tornam realidade.</span></h2></div>
+      <a class="button button-primary" href="mailto:contato@seudominio.com">Entre em contato <span>↗</span></a>
+      <p class="contact-note">Personalize este botão com seu e-mail ou link profissional.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#inicio">Luxes <strong>𝙇𝙚𝙭𝙞𝙤𝙨</strong></a>
+    <p class="quote">“Até alguém sem sentimentos pode encontrar uma razão para viver.”</p>
+    <div class="footer-bottom"><span>© <span id="year"></span> Luxes Lexios. Todos os direitos reservados.</span><a href="#inicio">VOLTAR AO TOPO ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
